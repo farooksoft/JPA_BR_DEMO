@@ -1,0 +1,64 @@
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'exceptionTranslation'
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'exceptionTranslation'
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistenceJPAConfig'
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'persistenceJPAConfig'
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'persistenceJPAConfig' to allow for resolving potential circular references
+2018-01-04 13:55:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'persistenceJPAConfig' of type [com.stackroute.activitystream.config.PersistenceJPAConfig$$EnhancerBySpringCGLIB$$eb655fb1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'persistenceJPAConfig'
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'exceptionTranslation' to allow for resolving potential circular references
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'exceptionTranslation'
+2018-01-04 13:55:42 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1e8b7643]
+2018-01-04 13:55:42 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@181e731e]
+2018-01-04 13:55:42 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@d771cc9]
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'entityManagerFactory'
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'entityManagerFactory'
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2018-01-04 13:55:42 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2018-01-04 13:55:42 [main] DEBUG o.s.a.f.a.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeAddUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeCreateCircle(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeDelete(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeDeleteUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeExists(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeGet(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeGetAllCircles(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeGetCircle(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeGetMessagesFromCircle(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeGetMessagesFromUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeGetMyCircles(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeGetUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeListAllUsers(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeListMyTags(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeListTags(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeRemoveUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeSaveUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeSendMessageToCircle(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeSendMessageToUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeShowMessagesWithTag(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeSubscribeUserToTag(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeUnsubscribeUserToTag(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeUpdateUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logBeforeValidateUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterAddUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterCreateCircle(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterDelete(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterDeleteUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterExists(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterGet(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterGetAllCircles(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterGetCircle(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterGetMessagesFromCircle(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterGetMessagesFromUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterGetMyCircles(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterGetUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterListAllUsers(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterListMyTags(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterListTags(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterRemoveUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterSaveUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterSendMessageToCircle(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterSendMessageToUser(org.aspectj.lang.JoinPoint)
+2018-01-04 13:55:42 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.stackroute.activitystream.aspect.LoggingAspect.logAfterShowMessagesWithTag(org.aspectj.lang.JoinPoint)

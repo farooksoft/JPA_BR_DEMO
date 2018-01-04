@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.stackroute.activitystream</groupId>
-  <artifactId>ActivityStream-step5-rest</artifactId>
+  <artifactId>JPA-rest</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ActivityStream-step5-rest Maven Webapp</name>
+  <name>JPA-rest Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
   
@@ -78,12 +78,12 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>ActivityStream-step5-rest</warName>
+						<warName>JPA-rest</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
-		<finalName>ActivityStream-step5-rest</finalName>
+		<finalName>JPA-rest</finalName>
 	</build>
 </project>

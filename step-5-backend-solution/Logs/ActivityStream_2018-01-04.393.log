@@ -1,0 +1,80 @@
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : get
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method arguments : [will]
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] INFO  c.s.a.aspect.LoggingAspect - ============@Before==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : get
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.stackroute.activitystream.model.User#will]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2018-01-04 13:59:52 [main] INFO  c.s.a.aspect.LoggingAspect - ============@After==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : get
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method arguments : [will]
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - ============@AfterReturning==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : get
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method arguments : [will]
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] INFO  c.s.a.aspect.LoggingAspect - ============@Before==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : delete
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.stackroute.activitystream.model.User#will]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.stackroute.activitystream.model.User#will]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=1} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2018-01-04 13:59:52 [main] INFO  c.s.a.aspect.LoggingAspect - ============@After==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : delete
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method arguments : [com.stackroute.activitystream.model.User@477021ee]
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - ============@AfterReturning==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : delete
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method arguments : [com.stackroute.activitystream.model.User@477021ee]
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] INFO  c.s.a.aspect.LoggingAspect - ============@Before==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : save
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.stackroute.activitystream.model.User#will]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=1} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2018-01-04 13:59:52 [main] INFO  c.s.a.aspect.LoggingAspect - ============@After==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : save
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method arguments : [com.stackroute.activitystream.model.User@2180e789]
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - ============@AfterReturning==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : save
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method arguments : [com.stackroute.activitystream.model.User@2180e789]
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] INFO  c.s.a.aspect.LoggingAspect - ============@Before==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : save
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.stackroute.activitystream.model.User#will], EntityKey[com.stackroute.activitystream.model.User#john]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=1} updates=ExecutableList{size=0} deletions=ExecutableList{size=1} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2018-01-04 13:59:52 [main] INFO  c.s.a.aspect.LoggingAspect - ============@After==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : save
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method arguments : [com.stackroute.activitystream.model.User@2180e789]
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - ============@AfterReturning==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : save
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method arguments : [com.stackroute.activitystream.model.User@2180e789]
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] INFO  c.s.a.aspect.LoggingAspect - ============@Before==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : get
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.stackroute.activitystream.model.User#will], EntityKey[com.stackroute.activitystream.model.User#john]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=1} updates=ExecutableList{size=0} deletions=ExecutableList{size=1} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2018-01-04 13:59:52 [main] INFO  c.s.a.aspect.LoggingAspect - ============@After==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : get
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method arguments : [john]
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - ============@AfterReturning==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : get
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method arguments : [john]
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] INFO  c.s.a.aspect.LoggingAspect - ============@Before==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : save
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.stackroute.activitystream.model.User#will], EntityKey[com.stackroute.activitystream.model.User#john]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=1} updates=ExecutableList{size=0} deletions=ExecutableList{size=1} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-01-04 13:59:52 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2018-01-04 13:59:52 [main] INFO  c.s.a.aspect.LoggingAspect - ============@After==========
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method Name : save
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - Method arguments : [com.stackroute.activitystream.model.User@d3e3085]
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - *********************************
+2018-01-04 13:59:52 [main] DEBUG c.s.a.aspect.LoggingAspect - ============@AfterReturning==========

@@ -1,0 +1,64 @@
+2018-01-04 14:20:00 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/api/message/unsubscribe/{username}/{tag}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.stackroute.activitystream.model.UserTag> com.stackroute.activitystream.controller.MessageController.unsubscribeUserToTag(java.lang.String,java.lang.String,javax.servlet.http.HttpSession)
+2018-01-04 14:20:00 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/api/message/listAllTags],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.stackroute.activitystream.controller.MessageController.listAllTags(javax.servlet.http.HttpSession)
+2018-01-04 14:20:00 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/api/message/tags/search/user/{username}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.stackroute.activitystream.controller.MessageController.getMyTags(java.lang.String,javax.servlet.http.HttpSession)
+2018-01-04 14:20:00 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/api/message/getMessagesByCircle/{circleName}/{pageNumber}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.activitystream.model.Message>> com.stackroute.activitystream.controller.MessageController.getMessagesByCircle(java.lang.String,int,javax.servlet.http.HttpSession)
+2018-01-04 14:20:00 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/api/message/getMessagesByUser/{senderUsername}/{receiverUserName}/{pageNumber}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.activitystream.model.Message>> com.stackroute.activitystream.controller.MessageController.getMessagesByUser(java.lang.String,java.lang.String,int,javax.servlet.http.HttpSession)
+2018-01-04 14:20:00 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@2d07aacc
+2018-01-04 14:20:00 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@2d07aacc
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Initializing servlet ''
+2018-01-04 14:20:00 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2018-01-04 14:20:00 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@254e9709]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@350f18a6]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@147c00aa]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@1c90029b]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+2018-01-04 14:20:00 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1 ms
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Servlet '' configured successfully
+2018-01-04 14:20:00 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2018-01-04 14:20:00 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-01-04 14:20:00 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4db728df
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 2 request handler methods found on class com.stackroute.activitystream.controller.UserAuthController: {public org.springframework.http.ResponseEntity com.stackroute.activitystream.controller.UserAuthController.authenticate(com.stackroute.activitystream.model.User,javax.servlet.http.HttpSession)={[/api/authenticate],methods=[POST]}, public org.springframework.http.ResponseEntity com.stackroute.activitystream.controller.UserAuthController.logout(javax.servlet.http.HttpSession)={[/api/logout],methods=[PUT]}}
+2018-01-04 14:20:00 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/api/authenticate],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.stackroute.activitystream.model.User> com.stackroute.activitystream.controller.UserAuthController.authenticate(com.stackroute.activitystream.model.User,javax.servlet.http.HttpSession)
+2018-01-04 14:20:00 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/api/logout],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.stackroute.activitystream.model.User> com.stackroute.activitystream.controller.UserAuthController.logout(javax.servlet.http.HttpSession)
+2018-01-04 14:20:00 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4db728df
+2018-01-04 14:20:00 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4db728df
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Initializing servlet ''
+2018-01-04 14:20:00 [main] INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2018-01-04 14:20:00 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@68a5aadd]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@1c2096c6]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1a89414e]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@17f8db6]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+2018-01-04 14:20:00 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1 ms
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Servlet '' configured successfully
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - DispatcherServlet with name '' processing POST request for [/api/authenticate]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /api/authenticate
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<com.stackroute.activitystream.model.User> com.stackroute.activitystream.controller.UserAuthController.authenticate(com.stackroute.activitystream.model.User,javax.servlet.http.HttpSession)]
+2018-01-04 14:20:00 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read [class com.stackroute.activitystream.model.User] as "application/json" with [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@44492c06]
+2018-01-04 14:20:00 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.stackroute.activitystream.model.User@5c4714ef] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@44492c06]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Null ModelAndView returned to DispatcherServlet with name '': assuming HandlerAdapter completed request handling
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Successfully completed request
+2018-01-04 14:20:00 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['username']
+2018-01-04 14:20:00 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $['password']
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - DispatcherServlet with name '' processing GET request for [/api/message/showMessagesWithTag/spring/1]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /api/message/showMessagesWithTag/spring/1
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<java.util.List<com.stackroute.activitystream.model.Message>> com.stackroute.activitystream.controller.MessageController.showMessagesWithTag(java.lang.String,int,javax.servlet.http.HttpSession)]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Last-Modified value for [/api/message/showMessagesWithTag/spring/1] is: -1
+2018-01-04 14:20:00 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [[com.stackroute.activitystream.model.Message@1c18ee69, com.stackroute.activitystream.model.Message@2f99d8c, com.stackroute.activitystream.model.Message@65d7eea4]] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5d37aa0f]
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Null ModelAndView returned to DispatcherServlet with name '': assuming HandlerAdapter completed request handling
+2018-01-04 14:20:00 [main] DEBUG o.s.t.w.s.TestDispatcherServlet - Successfully completed request
+2018-01-04 14:20:00 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $
+2018-01-04 14:20:00 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $[0]['senderName']
+2018-01-04 14:20:00 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $[0]['circleName']
+2018-01-04 14:20:00 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $[0]['streamType']
+2018-01-04 14:20:00 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $[0]['message']
+2018-01-04 14:20:00 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $[0]['tag']
+2018-01-04 14:20:00 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $[1]['senderName']
+2018-01-04 14:20:00 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $[1]['circleName']
+2018-01-04 14:20:00 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $[1]['streamType']
+2018-01-04 14:20:00 [main] DEBUG c.j.j.internal.path.CompiledPath - Evaluating path: $[1]['message']
