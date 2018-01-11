@@ -1,0 +1,6 @@
+com\stackroute\JPA_Backend\model\User.class
+com\stackroute\JPA_Backend\repository\UserRepository.class
+com\stackroute\JPA_Backend\config\PersistenceJPAConfig.class
+com\stackroute\JPA_Backend\serviceImpl\UserServiceImpl.class
+com\stackroute\JPA_Backend\service\UserService.class
+com\stackroute\JPA_Backend\config\ApplicationContextConfig.class
