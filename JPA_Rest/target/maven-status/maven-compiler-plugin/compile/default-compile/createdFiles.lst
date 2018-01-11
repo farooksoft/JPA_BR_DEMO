@@ -1,0 +1,3 @@
+com\stackroute\JPA_Rest\config\ApplicationContextConfig.class
+com\stackroute\JPA_Rest\controller\UserController.class
+com\stackroute\JPA_Rest\config\WebApplicationInitializer.class
